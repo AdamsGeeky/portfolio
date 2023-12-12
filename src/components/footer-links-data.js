@@ -5,21 +5,21 @@ export const footerData = [
   {
     name: 'Email',
     icon: <MdMail />,
-    href: '#',
+    href: 'mailto:muhdadamu0008@gmail.com',
   },
   {
     name: 'Twitter',
     icon: <BsTwitter />,
-    href: '#',
+    href: 'https://twitter.com/AdamsGeeky',
   },
   {
     name: 'LinkedIn',
     icon: <BsLinkedin />,
-    href: '#',
+    href: 'https://www.linkedin.com/in/adamu-muhammad-muhammad-13456b190/',
   },
   {
     name: 'Github',
     icon: <BsGithub />,
-    href: '#',
+    href: 'https://github.com/AdamsGeeky',
   },
 ];

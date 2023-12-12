@@ -11,13 +11,27 @@ export const toolsData = [
         src: 'https://media.graphcms.com/VKHHNvEETYqZRkqgjybc',
       },
       {
-        name: 'Gatsby',
-        src: 'https://avatars.githubusercontent.com/u/12551863?s=280&v=4',
+        name: 'Docusaurus',       
+        src: 'https://docusaurus.io/img/docusaurus-social-card.png',
       },
       {
         name: 'Chakra UI',
         src: 'https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg',
       },
+      {
+        name: 'Infima',
+        src: 'https://infima.dev/img/logo.png',
+      },
+      {
+        name: 'TailwindCSS',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png',
+      },
+      {
+        name: 'Bootstrap',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png',
+      }
+
+
     ],
   },
   {
@@ -32,13 +46,10 @@ export const toolsData = [
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png',
       },
       {
-        name: 'Java',
-        src: 'https://cdn-icons-png.flaticon.com/512/226/226777.png',
+        name: 'express',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Expressjs_logo.svg/1200px-Expressjs_logo.svg.png',
       },
-      {
-        name: 'Buildable',
-        src: '/assets/buildable.png',
-      },
+
     ],
   },
   {
@@ -57,31 +68,23 @@ export const toolsData = [
         name: 'Prisma',
         src: 'https://plugins.jetbrains.com/files/14240/159812/icon/pluginIcon.png',
       },
-      {
-        name: 'Couch DB',
-        src: 'http://1.bp.blogspot.com/-e-k9ob0VYW8/Un4Vy2e2xwI/AAAAAAAAFxI/S66aPmJnM8Y/s1600/couchbase.png',
-      },
     ],
   },
   {
-    title: 'Web3 Development',
+    title: 'tools',
     tools: [
       {
-        name: 'Solidity',
-        src: 'https://docs.soliditylang.org/en/v0.8.17/_static/logo.svg',
+        name: 'Git',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git_icon.svg/1024px-Git_icon.svg.png',
       },
       {
-        name: 'C++',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png',
+        name: 'GitHub',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png',
       },
       {
-        name: 'Vyper',
-        src: 'https://repository-images.githubusercontent.com/176778076/4139b700-7d83-11e9-8b1f-d4d4a2fd9341',
-      },
-      {
-        name: 'Alchemy',
-        src: 'https://pbs.twimg.com/profile_images/1435709115829927941/7tZzb4mt_400x400.jpg',
-      },
+        name: 'Docker',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Docker_logo.svg/1200px-Docker_logo.svg.png',
+      }
     ],
   },
 ];

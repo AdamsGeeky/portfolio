@@ -1,6 +1,35 @@
 import { Box, Heading, Stack } from '@chakra-ui/react';
 import { ProjectCard } from './project-card';
 
+
+const ProjectLists = [
+  {
+    title: 'Community ink',
+    description: 'Community Ink is an Open Source Project which aims to build a social media platform for studens in various higher institutions to get full access to learning resources of their campus, be updated on recent events and much more on campus related activities.',
+    src: '/assets/01.png',
+    tags: ['HTML', 'CSS', 'React', 'Infima'],
+    href: 'https://communityink.netlify.app/',
+    codeHref: 'https://github.com/AdamsGeeky/communityink',
+  },
+  {
+    title: 'Navist',
+    description: 'Navigation System for GSU Students.',
+    src: '/assets/02.png',
+    tags: ['React','Infima', 'Firebase', 'NodeJS', 'Google maps' ],
+    href: 'https://gsunavis.web.app/',
+    codeHref: 'https://github.com/AdamsGeeky/plish-spaces',
+  },
+  {
+    title: 'Creative Clubs',
+    description: 'Creative Clubs is a platform where students can get full access to Clubs activeties and much more.',
+    src: '/assets/prot03.png',
+    tags: ['React', 'Infima', 'NodeJS'],
+    href: 'https://creativeclubgsu.github.io/web/',
+    codeHref: 'https://github.com/creativeclubgsu/web',
+  }
+  
+]
+
 export function Projects() {
   return (
     <Box as='section' py='12'>
@@ -8,24 +37,9 @@ export function Projects() {
         Projects
       </Heading>
       <Stack spacing='16'>
-        <ProjectCard
-          title='Daily Runs'
-          description='Daily runs gives you quick information about the weather, traffic and activities going on around a specific area.'
-          src='/assets/portfolio-1.jpeg'
-          tags={['HTML', 'Chakra UI', 'Mongo DB', 'RedwoodJS']}
-        />
-        <ProjectCard
-          title='Plish Spaces'
-          description='Plish Spaces is a web and mobile platform that lets you track house spaces for vacation and short rentals.'
-          src='/assets/portfolio-2.jpeg'
-          tags={['HTML', 'CSS', 'React', 'Buildable']}
-        />
-        <ProjectCard
-          title='Just 4 Devs'
-          description='A site that provides various developer courses and teaches people how to code & land their first developer job.'
-          src='/assets/portfolio-3.jpeg'
-          tags={['NextJS', 'Chakra UI', 'PostgreSQL', 'NodeJS']}
-        />
+        {ProjectLists.map((project, index) => (
+          <ProjectCard key={index} {...project} />
+        ))}
       </Stack>
     </Box>
   );

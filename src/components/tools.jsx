@@ -1,6 +1,7 @@
 import { Box, Image, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react';
 import { toolsData } from './tools-data';
 
+
 export function Tools({ title, src, bg, color, tool, ...rest }) {
   return (
     <SimpleGrid

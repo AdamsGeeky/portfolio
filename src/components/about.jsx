@@ -32,12 +32,12 @@ export function About() {
           <Avatar
             boxShadow='lg'
             size='xl'
-            name='Joke Basmin'
-            src='https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+            name='Adamu'
+            src='../public/assets/image.png'
           />
           <Stack spacing='1'>
             <Heading as='h1' size='lg' color='blue.600'>
-              Joke Basmin
+              Adamu M. Muhammad
             </Heading>
             <Text fontSize='lg' color='gray.500'>
               Full Stack Developer
@@ -46,15 +46,15 @@ export function About() {
         </HStack>
 
         <HStack spacing='2'>
-          <SocialLink label='Email' icon={<MdMail />} href='#' />
+          <SocialLink label='Email' icon={<MdMail />} href='mailto:muhdadamu0008@gmail.com' />
           <SocialLink label='Twitter' icon={<BsTwitter />} href='#' />
           <SocialLink label='LinkedIn' icon={<BsLinkedin />} href='#' />
-          <SocialLink label='Github' icon={<BsGithub />} href='#' />
+          <SocialLink label='Github' icon={<BsGithub />} href='https://github.com/AdamsGeeky' />
         </HStack>
       </Stack>
 
       <Text fontSize='lg' lineHeight='tall'>
-        Over 4 years experience working on both frontend and backend development
+        Over 2 years experience working on both frontend and backend development
         processes. Excelled in designing user interactions on websites,
         developing servers, APIs and databases.
       </Text>
@@ -67,15 +67,23 @@ export function About() {
           <List spacing={2}>
             <ListItem>
               <ListIcon as={BsStarFill} color='blue.500' />
-              First-class Master's degree in Computer Science
-            </ListItem>
-            <ListItem>
-              <ListIcon as={BsFileCodeFill} color='blue.500' />
-              Expert in developing responsive User Interfaces
+              Alx software Engineering 
             </ListItem>
             <ListItem>
               <ListIcon as={AiFillApi} color='blue.500' />
               Proficient in producing and consuming RESTful APIs
+            </ListItem>
+            <ListItem>
+              <ListIcon as={AiFillApi} color='blue.500' />
+              Open Sourece Advocate 
+            </ListItem>
+            <ListItem>
+              <ListIcon as={BsStarFill} color='blue.500' />
+              Team player and Strong problem solver
+          </ListItem>
+            <ListItem>
+              <ListIcon as={BsFileCodeFill} color='blue.500' />
+              Lead Google Developer Student Club at GSU
             </ListItem>
           </List>
         </Stack>

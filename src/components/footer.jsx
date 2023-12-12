@@ -15,10 +15,10 @@ export function Footer() {
         >
           <Text>
             Made with ❤️ by{' '}
-            <Link href='https://twitter.com/_estheragbaje' isExternal>
-              Esther Agbaje
+            <Link href='https://twitter.com/AdamsGeeky' isExternal>
+              Adamu M. Muhammad
             </Link>{' '}
-            © 2022
+            © `{new Date().getFullYear()}`
           </Text>
 
           <Wrap justify='center'>

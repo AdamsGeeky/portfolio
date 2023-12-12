@@ -1,9 +1,9 @@
 import { Badge, Box, Flex, Heading, Stack, Text, Wrap } from '@chakra-ui/react';
-import Image from 'next/future/image';
 import { IoLogoGithub, IoMdLink } from 'react-icons/io';
 import { CustomButton } from './custom-button';
+import Image from 'next/image';
 
-export function ProjectCard({ tags, title, description, src, ...rest }) {
+export function ProjectCard({ tags, title, description, src, href, codeHref, ...rest }) {
   return (
     <Box
       bg='white'
@@ -52,7 +52,7 @@ export function ProjectCard({ tags, title, description, src, ...rest }) {
 
           <Stack mt={6} spacing={4} isInline>
             <CustomButton
-              href='#'
+              href={href}
               icon={<IoMdLink />}
               colorScheme='blue'
               borderRadius='lg'
@@ -60,7 +60,7 @@ export function ProjectCard({ tags, title, description, src, ...rest }) {
             >
               Visit Site
             </CustomButton>
-            <CustomButton href='#' icon={<IoLogoGithub />} borderRadius='lg'>
+            <CustomButton href={codeHref} icon={<IoLogoGithub />} borderRadius='lg'>
               Github
             </CustomButton>
           </Stack>
