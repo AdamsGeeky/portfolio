@@ -33,7 +33,7 @@ export function About() {
             boxShadow='lg'
             size='xl'
             name='Adamu'
-            src='../public/assets/image.png'
+            src='/assets/Adams.png'
           />
           <Stack spacing='1'>
             <Heading as='h1' size='lg' color='blue.600'>
@@ -46,9 +46,12 @@ export function About() {
         </HStack>
 
         <HStack spacing='2'>
-          <SocialLink label='Email' icon={<MdMail />} href='mailto:muhdadamu0008@gmail.com' />
-          <SocialLink label='Twitter' icon={<BsTwitter />} href='#' />
-          <SocialLink label='LinkedIn' icon={<BsLinkedin />} href='#' />
+          <SocialLink label='Email' icon={<MdMail
+          
+          
+          />} href='mailto:muhdadamu0008@gmail.com' />
+          <SocialLink label='Twitter' icon={<BsTwitter />} href='https://twitter.com/AdamsGeeky' />
+          <SocialLink label='LinkedIn' icon={<BsLinkedin />} href='https://www.linkedin.com/in/adamu-muhammad-muhammad-13456b190/' />
           <SocialLink label='Github' icon={<BsGithub />} href='https://github.com/AdamsGeeky' />
         </HStack>
       </Stack>

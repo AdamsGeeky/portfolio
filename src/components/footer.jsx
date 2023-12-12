@@ -18,7 +18,7 @@ export function Footer() {
             <Link href='https://twitter.com/AdamsGeeky' isExternal>
               Adamu M. Muhammad
             </Link>{' '}
-            © `{new Date().getFullYear()}`
+            © {new Date().getFullYear()}
           </Text>
 
           <Wrap justify='center'>
