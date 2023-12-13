@@ -12,12 +12,12 @@ const ProjectLists = [
     codeHref: 'https://github.com/AdamsGeeky/communityink',
   },
   {
-    title: 'Navist',
-    description: 'Navigation System for GSU Students.',
+    title: ' SkillBoost Mentorship Platform',
+    description: 'SkillBoost is a platform where students can get full access to their mentorship and much more.',
     src: '/assets/02.png',
     tags: ['React','Infima', 'Firebase', 'NodeJS', 'Google maps' ],
     href: 'https://gsunavis.web.app/',
-    codeHref: 'https://github.com/AdamsGeeky/plish-spaces',
+    codeHref: 'https://github.com/AdamsGeeky/skillbost',
   },
   {
     title: 'Creative Clubs',
