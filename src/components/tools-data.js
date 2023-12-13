@@ -47,7 +47,7 @@ export const toolsData = [
       },
       {
         name: 'express',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Expressjs_logo.svg/1200px-Expressjs_logo.svg.png',
+        src: 'https://expressjs.com/images/express-facebook-share.png',
       },
 
     ],
@@ -75,7 +75,7 @@ export const toolsData = [
     tools: [
       {
         name: 'Git',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git_icon.svg/1024px-Git_icon.svg.png',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png',
       },
       {
         name: 'GitHub',
@@ -83,7 +83,7 @@ export const toolsData = [
       },
       {
         name: 'Docker',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Docker_logo.svg/1200px-Docker_logo.svg.png',
+        src:'https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png',
       }
     ],
   },
