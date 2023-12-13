@@ -16,10 +16,13 @@ import {
   BsLinkedin,
   BsStarFill,
   BsTwitter,
+  BsWhatsapp,
+  BsPhone,
 } from 'react-icons/bs';
 import { MdMail } from 'react-icons/md';
 import { AiFillApi } from 'react-icons/ai';
 import { SocialLink } from './social-link';
+import { CustomButton } from './custom-button';
 
 export function About() {
   return (
@@ -46,13 +49,18 @@ export function About() {
         </HStack>
 
         <HStack spacing='2'>
-          <SocialLink label='Email' icon={<MdMail
-          
-          
-          />} href='mailto:muhdadamu0008@gmail.com' />
-          <SocialLink label='Twitter' icon={<BsTwitter />} href='https://twitter.com/AdamsGeeky' />
-          <SocialLink label='LinkedIn' icon={<BsLinkedin />} href='https://www.linkedin.com/in/adamu-muhammad-muhammad-13456b190/' />
-          <SocialLink label='Github' icon={<BsGithub />} href='https://github.com/AdamsGeeky' />
+        <CustomButton href='tel:+2348133556494'>
+            <SocialLink label='Call' icon={<BsPhone />} />
+          </CustomButton>
+          <CustomButton href='mailto:muhdadamu0008@gmail.com'>
+             <SocialLink label='Email' icon={<MdMail/>}/>
+          </CustomButton>
+          <CustomButton href='https://github.com/AdamsGeeky'>
+            <SocialLink label='Github' icon={<BsGithub />} />
+          </CustomButton>
+          <CustomButton href='https://www.linkedin.com/in/adamu-muhammad-muhammad-13456b190/'>
+            <SocialLink label='Linkedin' icon={<BsLinkedin />} />
+          </CustomButton>         
         </HStack>
       </Stack>
 
