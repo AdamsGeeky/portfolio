@@ -65,7 +65,7 @@ export function About() {
       </Stack>
 
       <Text fontSize='lg' lineHeight='tall'>
-        Over 2 years experience working on both frontend and backend development
+        Over 3 years experience working on both frontend and backend development
         processes. Excelled in designing user interactions on websites,
         developing servers, APIs and databases.
       </Text>
@@ -78,7 +78,7 @@ export function About() {
           <List spacing={2}>
             <ListItem>
               <ListIcon as={BsStarFill} color='blue.500' />
-              Alx software Engineering 
+              Graduate Alx software Engineering 
             </ListItem>
             <ListItem>
               <ListIcon as={AiFillApi} color='blue.500' />
@@ -94,7 +94,7 @@ export function About() {
           </ListItem>
             <ListItem>
               <ListIcon as={BsFileCodeFill} color='blue.500' />
-              Lead Google Developer Student Club at GSU
+              EX Lead Google Developer Student Club at GSU
             </ListItem>
           </List>
         </Stack>
