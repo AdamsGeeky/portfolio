@@ -21,7 +21,7 @@ const ProjectLists = [
   {
     title: 'Testflow',
     description: 'Testflow is a secure and efficient quiz management platform that allows educators to create, manage, and analyze quizzes with advanced security features.',
-    src: '/assets/testflow.png',
+    src: '/assets/testflow.jpg',
     tags: ['React', 'NodeJS', 'PostgreSQL'],
     href: 'https://testflow-mu.vercel.app/',
     codeHref: 'https://github.com/AdamsGeeky/testflow',
@@ -29,9 +29,9 @@ const ProjectLists = [
   {
     title: 'Navis',
     description: 'Navis is a web application that helps students navigate their campus and access learning resources using Google technologies.',
-    src: '/assets/navis.png',
+    src: '/assets/Navis.jpg',
     tags: ['React', 'Google Maps API', 'NodeJS', 'Firebase'],
-    href: 'https://navis.netlify.app/',
+    href: 'https://gsunavis.web.app/',
     codeHref: 'https://github.com/AdamsGeeky/navis',
   },
 ];
