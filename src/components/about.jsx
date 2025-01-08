@@ -65,7 +65,7 @@ export function About() {
       </Stack>
 
       <Text fontSize='lg' lineHeight='tall'>
-        Software Engineer With over 2 years of experience in both frontend          and backend development, I specialize in building seamless user experiences, APIs, and scalable solutions. As a blockchain enthusiast, I continuously explore new ways to integrate cutting-edge technologies into solutions that make a difference
+        Software Engineer With over 2 years of experience in both frontend  and backend development, continuously explore new ways to integrate cutting-edge technologies into solutions that make a difference
          I’m excited to contribute to the digital transformation and bring impactful ideas to life. Let’s innovate, collaborate, and build the future together!
               </Text>
 
