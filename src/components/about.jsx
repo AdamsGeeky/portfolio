@@ -65,7 +65,7 @@ export function About() {
       </Stack>
 
       <Text fontSize='lg' lineHeight='tall'>
-        Over 3 years experience working on both frontend and backend development
+        Over 2 years experience working on both frontend and backend development
         processes. Excelled in designing user interactions on websites,
         developing servers, APIs and databases.
       </Text>
