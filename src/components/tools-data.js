@@ -1,5 +1,30 @@
 export const toolsData = [
   {
+     {
+    title: 'Programming Languages',
+    tools: [
+      {
+        name: 'C',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg',
+      },
+      {
+        name: 'Python',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+      },
+      {
+        name: 'Rust',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg',
+      },
+      {
+        name: 'JavaScript',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+      },
+      {
+        name: 'TypeScript',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+      },
+    ],
+  },
     title: 'Frontend Development',
     tools: [
       {
@@ -81,31 +106,6 @@ export const toolsData = [
         name: 'Docker',
         src: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png',
       }
-    ],
-  },
-  {
-    title: 'Programming Languages',
-    tools: [
-      {
-        name: 'C',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg',
-      },
-      {
-        name: 'Python',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
-      },
-      {
-        name: 'Rust',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg',
-      },
-      {
-        name: 'JavaScript',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
-      },
-      {
-        name: 'TypeScript',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
-      },
     ],
   },
 ];
