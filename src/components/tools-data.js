@@ -1,6 +1,5 @@
 export const toolsData = [
   {
-     {
     title: 'Programming Languages',
     tools: [
       {
@@ -25,6 +24,7 @@ export const toolsData = [
       },
     ],
   },
+  {
     title: 'Frontend Development',
     tools: [
       {
@@ -36,7 +36,7 @@ export const toolsData = [
         src: 'https://media.graphcms.com/VKHHNvEETYqZRkqgjybc',
       },
       {
-        name: 'Docusaurus',       
+        name: 'Docusaurus',
         src: 'https://docusaurus.io/img/docusaurus-social-card.png',
       },
       {
@@ -46,7 +46,7 @@ export const toolsData = [
       {
         name: 'Bootstrap',
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png',
-      }
+      },
     ],
   },
   {
@@ -57,13 +57,13 @@ export const toolsData = [
         src: 'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png',
       },
       {
-        name: 'express',
+        name: 'Express',
         src: 'https://expressjs.com/images/express-facebook-share.png',
       },
       {
         name: 'FASTAPI',
-        src: 'https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)&nbsp',
-      }
+        src: 'https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi',
+      },
     ],
   },
   {
@@ -84,13 +84,13 @@ export const toolsData = [
     ],
   },
   {
-    title: 'tools',
+    title: 'Tools',
     tools: [
       {
         name: 'Git',
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png',
       },
-       {
+      {
         name: 'Linux',
         src: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png',
       },
@@ -105,7 +105,7 @@ export const toolsData = [
       {
         name: 'Docker',
         src: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png',
-      }
+      },
     ],
   },
 ];
