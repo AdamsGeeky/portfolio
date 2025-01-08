@@ -65,10 +65,10 @@ export function About() {
       </Stack>
 
       <Text fontSize='lg' lineHeight='tall'>
-        Over 2 years experience working on both frontend and backend development
-        processes. Excelled in designing user interactions on websites,
-        developing servers, APIs and databases.
-      </Text>
+      Certified ALX Software Engineer | Former Lead, Google Developer Student Club GSU | Backend Developer | Blockchain Enthusiast
+        I’m passionate about bridging tech education gaps in Northern Nigeria through GeekInk, fostering technopreneurship and empowering a vibrant community of creators. With over 2 years of experience in both frontend          and backend development, I specialize in building seamless user experiences, APIs, and scalable solutions. As a blockchain enthusiast, I continuously explore new ways to integrate cutting-edge technologies into solutions that make a difference
+         I’m excited to contribute to the digital transformation and bring impactful ideas to life. Let’s innovate, collaborate, and build the future together!
+              </Text>
 
       <Box>
         <Heading fontSize='sm' textTransform='uppercase' pb='3'>
